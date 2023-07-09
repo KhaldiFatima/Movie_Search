@@ -1,0 +1,29 @@
+.head {
+  margin: 5px 0;
+  color: #8c27ae;
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+.header-content {
+  min-height: 65vh;
+  background: linear-gradient(rgba(141, 39, 174, 0.3), rgba(70, 130, 180, 0.5)),
+    url('../../assets//images/home-movie.jpg') center/cover no-repeat;
+  flex-direction: column;
+  color: white;
+  text-align: center;
+}
+.header-title {
+  font-size: 4.2rem;
+  color: rgb(24, 113, 185);
+  text-shadow: 3px 0 3px white;
+  text-transform: capitalize;
+}
+.header-text {
+  margin-top: -1.8rem;
+  margin-bottom: 2.8rem;
+  opacity: 0.8;
+  max-width: 770px;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
